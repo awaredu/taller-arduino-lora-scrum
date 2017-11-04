@@ -8,8 +8,10 @@ https://github.com/awaredu/taller-arduino-lora-scrum
 Por ejemplo, os pedimos: 
 
 1. Instalar el software de Arduino en vuestro portátil, lo podéis encontrar aquí: https://www.arduino.cc/en/Main/Software escogiendo la versión de vuestro ordenador (windows, mac o linux).
-2. Los que estéis con windows tendréis que instalar el driver: driver.zip
-3. Crear una cuenta en https://github.com y crear un repositorio con el nombre taller-lora-arduino. (https://codigofacilito.com/articulos/como-crear-una-cuenta-y-un-repo-en-github)
+2. Los que estéis con windows tendréis que instalar el driver: https://github.com/SeeedDocument/Seeeduino_LoRa/raw/master/res/driver.zip
+3. Instalar Seeedstudio LoRaWAN. http://wiki.seeed.cc/Seeed_Arduino_Boards/
+4. Crear una cuenta en https://github.com 
+5. Crear un repositorio con el nombre taller-lora-arduino. (https://codigofacilito.com/articulos/como-crear-una-cuenta-y-un-repo-en-github)
 
 Si necesitáis ayuda, por favor abrir un issue en nuestro repositorio de github, así nos podemos ayudar entre todos. Como vais a ver la idea de este taller, es mostrar herramientas y procesos que se usan en el mundo real, aprender haciendo, desde el primer día. 
 

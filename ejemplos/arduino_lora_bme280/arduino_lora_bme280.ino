@@ -6,6 +6,8 @@ BME280 bme280;
 void setup()
 {
   SerialUSB.begin(115200);
+  pinMode(38, OUTPUT); // dar voltaje a modulos grove 
+  digitalWrite(38, HIGH); 
   if(!bme280.init()){
     Serial.println("Error al inicial el BME280!");
   }

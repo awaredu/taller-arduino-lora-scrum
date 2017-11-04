@@ -17,19 +17,19 @@ El arduino que vamos ha usar es el siguiente por si quereis leer su documentaci�
 
 Dependiendo de vuestro nivel de conocimiento de programación y arduino, también os pedimos que os leéis un poco de material introductorio. Asumimos que tenéis un mínimo de conocimientos en esos temas, si no es así, podéis leer material que encontréis por internet, aquí algunas recomendaciones:
 
-##Arduino:
+## Arduino:
 * Introducción arduino: https://www.arduino.cc/en/Guide/HomePage (inglés) (y comunidad en español https://playground.arduino.cc/Es/Es )
 * Curso arduino gratis: https://codigofacilito.com/cursos/Arduino 
 * Laboratorio arduino: https://circuits.io/lab (inglés)
 
-##LoRa:
+## LoRa:
 * Para la red LoRa utilizamos de things network: https://www.thethingsnetwork.org/
 * Un monton de videos en su canal de youtube: https://www.youtube.com/channel/UCv85CXnZUXEKnlZpQapTAwQ
 
-##Git:
+## Git:
 * https://www.codeschool.com/courses/try-git 
 
-##GitHub:
+## GitHub:
 * Markdown: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 

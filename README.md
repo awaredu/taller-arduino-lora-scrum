@@ -34,6 +34,12 @@ Dependiendo de vuestro nivel de conocimiento de programación y arduino, tambié
 ## GitHub:
 * Markdown: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
+## Cayenne
+* Dashboard integrada con thethingsnetwork: https://mydevices.com
+
+## VSCode
+* Editor VS Code https://code.visualstudio.com
+* Plugin Arduino VS Code: https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.vscode-arduino
 
 Y para quien este mas avanzado, interesante el empezar a pensar en como usar el modo de bajo consumo de energia: https://github.com/arduino-org/arduino-library-energy-saving en el directorio ejemplos hay codigo interesante.
 

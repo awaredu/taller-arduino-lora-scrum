@@ -36,6 +36,8 @@ Dependiendo de vuestro nivel de conocimiento de programación y arduino, tambié
 
 ## Cayenne
 * Dashboard integrada con thethingsnetwork: https://mydevices.com
+* Integracion con thethingsnetwork: https://www.thethingsnetwork.org/docs/applications/Cayenne/
+* API Arduino LPP https://www.thethingsnetwork.org/docs/devices/arduino/api/cayennelpp.html
 
 ## VSCode
 * Editor VS Code https://code.visualstudio.com

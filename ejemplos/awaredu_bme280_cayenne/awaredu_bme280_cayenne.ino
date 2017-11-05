@@ -7,9 +7,6 @@
 BME280 bme280;
 CayenneLPP lpp(51);
 
-unsigned char data[10] = {
-    1, 2, 3, 4, 5, 6, 7, 8, 9, 0xA,
-};
 char buffer[256];
 
 void setup(void)
@@ -17,7 +14,7 @@ void setup(void)
     SerialUSB.begin(115200);
     while (!SerialUSB);
     SerialUSB.println("start");
-    //while(!SerialUSB);
+
     // iniciar BME280
     pinMode(38, OUTPUT); // dar voltaje a modulos grove
     digitalWrite(38, HIGH);
@@ -65,6 +62,7 @@ void loop(void)
     bool result = false;
     int pressure;
     float temperature;
+    float humidity;
 
     //obtener he imprimir temperaturas
     SerialUSB.print("Temp: ");
@@ -76,12 +74,18 @@ void loop(void)
     SerialUSB.print(pressure = bme280.getPressure());
     SerialUSB.println("Pa");
 
+    //obtener he imprimir humedad
+    SerialUSB.print("Humidity: ");
+    SerialUSB.print(humidity = bme280.getHumidity());
+    SerialUSB.println("%");
+
+    // preparar payload de cayenne
     lpp.reset();
     lpp.addTemperature(1, temperature);
     lpp.addBarometricPressure(2, pressure);
+    lpp.addRelativeHumidity(3, humidity);
 
     result = lora.transferPacket(lpp.getBuffer(), lpp.getSize());
-    //result = lora.transferPacket(data, 10, 10);
 
     if (result)
     {

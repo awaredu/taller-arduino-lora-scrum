@@ -9,6 +9,7 @@ Por ejemplo, os pedimos:
 
 1. Instalar el software de Arduino en vuestro portátil, lo podéis encontrar aquí: https://www.arduino.cc/en/Main/Software escogiendo la versión de vuestro ordenador (windows, mac o linux).
 2. Los que estéis con windows tendréis que instalar el driver: https://github.com/SeeedDocument/Seeeduino_LoRa/raw/master/res/driver.zip
+Link alternativo: https://github.com/Seeed-Studio/Signed_USB_Serial_Driver
 3. Instalar Seeedstudio LoRaWAN. http://wiki.seeed.cc/Seeed_Arduino_Boards/
 4. Crear una cuenta en https://github.com 
 5. Crear un repositorio con el nombre taller-lora-arduino. (https://codigofacilito.com/articulos/como-crear-una-cuenta-y-un-repo-en-github)

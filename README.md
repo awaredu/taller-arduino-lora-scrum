@@ -11,6 +11,8 @@ Por ejemplo, os pedimos:
 2. Los que estéis con windows tendréis que instalar el driver: https://github.com/SeeedDocument/Seeeduino_LoRa/raw/master/res/driver.zip
 Link alternativo: https://github.com/Seeed-Studio/Signed_USB_Serial_Driver
 3. Instalar Seeedstudio LoRaWAN. http://wiki.seeed.cc/Seeed_Arduino_Boards/
+  Poner enlace en Arduino IDE File -> Preferences -> Aditional Board Manager URLs: https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/package_seeeduino_boards_index.json
+  
 4. Crear una cuenta en https://github.com 
 5. Crear un repositorio con el nombre taller-lora-arduino. (https://codigofacilito.com/articulos/como-crear-una-cuenta-y-un-repo-en-github)
 

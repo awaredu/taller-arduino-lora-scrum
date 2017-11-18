@@ -1,3 +1,6 @@
+
+https://www.thethingsnetwork.org/community/isla-de-la-palma/
+
 # taller-arduino-lora-scrum
 Bienvenidos al Repo del taller de Arduino, LoRa y SCRUM
 

@@ -8,5 +8,6 @@ Una vez registrado el dispositivo (acordarse de añadir tambien la integration e
 - Elegir Lora (Beta) [Enlace to pantallazo 1](Shot1.png)
 - En la parte izquierda elegir TheThingsNetwork [Enlace to pantallazo 2](Shot2.png)
 - En la parte derecha elegir CayenneLPP [Enlace to pantallazo 3](Shot3.png)
+- Configurar el dispositivo añadiendo el DevEUI [Enlace to pantallazo 4](Shot4.png)
 
 Si todo ha ido bien, el dispositivo aparece con los datos.

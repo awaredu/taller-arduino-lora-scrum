@@ -4,6 +4,7 @@
 
 // Replace REPLACE_ME with TTN_FP_EU868 or TTN_FP_US915
 #define freqPlan TTN_FP_EU868
+#define DEBUG 0
 
 BME280 bme280;
 CayenneLPP lpp(60);
@@ -19,7 +20,10 @@ void setup()
 {
 
   lpp.reset();
-  SerialUSB.begin(115200);
+  if (DEBUG) {
+    SerialUSB.begin(115200);
+  }
+
   //Inicializa LoRaWan
   lora.init();
   lora.setId(NULL, devEui, appEui);
@@ -51,6 +55,10 @@ void setup()
   if (!bme280.init())
   {
     //print "Error";
+  }
+
+  if(DEBUG) {
+    //Print some status of LoRaWan
   }
 }
 
@@ -93,10 +101,12 @@ void loop()
     length = lora.receivePacket(buffer, 256, &rssi);
     if (length)
     {
-      //for (unsigned int i=0; i<length;i++){
-      //  SerialUSB.println(buffer[i]);
+      if (DEBUG) [
+        for (unsigned int i = 0; i < length; i++) {
+        SerialUSB.println(buffer[i]);
+      }
       led = !led;
-      digitalWrite(13, led);
+            digitalWrite(13, led);
     }
   }
 }

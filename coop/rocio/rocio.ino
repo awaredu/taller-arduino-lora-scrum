@@ -57,7 +57,7 @@ void setup()
     //print "Error";
   }
 
-  if(DEBUG) {
+  if (DEBUG) {
     //Print some status of LoRaWan
   }
 }
@@ -101,12 +101,13 @@ void loop()
     length = lora.receivePacket(buffer, 256, &rssi);
     if (length)
     {
-      if (DEBUG) [
+      if (DEBUG) {
         for (unsigned int i = 0; i < length; i++) {
-        SerialUSB.println(buffer[i]);
+          SerialUSB.println(buffer[i]);
+        }
       }
       led = !led;
-            digitalWrite(13, led);
+      digitalWrite(13, led);
     }
   }
 }

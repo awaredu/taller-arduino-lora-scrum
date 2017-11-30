@@ -1,0 +1,40 @@
+{
+    "app_id": "dp_calculator",
+    "dev_id": "seeduino",
+    "hardware_serial": "007806192C9937B7",
+    "port": 8,
+    "counter": 1,
+    "payload_raw": "AWcA2wJokgNzuswEiARgXP1KCASKtQUDBpUGAwaU",
+    "payload_fields": {
+        "analog_out_5": 16.85,
+        "analog_out_6": 16.84,
+        "barometric_pressure_3": -1771.6,
+        "gps_4": {
+            "altitude": 2976.53,
+            "latitude": 28.6812,
+            "longitude": -17.7656
+        },
+        "relative_humidity_2": 73,
+        "temperature_1": 21.9
+    },
+    "metadata": {
+        "time": "2017-11-28T06:56:21.235891744Z",
+        "frequency": 867.9,
+        "modulation": "LORA",
+        "data_rate": "SF12BW125",
+        "coding_rate": "4/5",
+        "gateways": [
+            {
+                "gtw_id": "eui-fcc23dfffe0df0e9",
+                "timestamp": 37387892,
+                "time": "2017-11-28T06:56:21.273612Z",
+                "channel": 7,
+                "rssi": -103,
+                "snr": 7,
+                "latitude": 28.681513,
+                "longitude": -17.76581
+            }
+        ]
+    },
+    "downlink_url": "https://integrations.thethingsnetwork.org/ttn-eu/api/v2/down/dp_calculator/test?key=ttn-account-v2.ZNMyxpqhoIJOdE0Qc113jJy5OSHY2edcXKnv1s94mG8"
+}

@@ -7,7 +7,7 @@
 
 char *appKey = "E5729D852CBA2B2DECB56CAC49853C2B";
 char *appEui = "70B3D57ED00085F0";
-char *devEui = "0070F3466D0ABF10";
+char *devEui = "0070F3466D0AB";
 
 BME280 bme280;
 CayenneLPP lpp(51);

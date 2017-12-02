@@ -6,4 +6,4 @@
   
   * `ejemplo anemometro_lora.ino`
   
-   ejemplo mas complejo que lee los valores de velocidad y direccion del viento, calcula el valor medio cada 10 segundos y los envia por lora y a la consola de arduino
+   ejemplo mas complejo que lee los valores de velocidad y direccion del viento, calcula el valor medio cada 10 segundos y los envia por lora y a la consola de arduino. El código no está optimizado para facilitar la comprension.
